@@ -2,13 +2,14 @@
 This project shows you how to connect Matlab to V-REP and how to send actuator commands, read proximity sensors, and transfer camera images between V-REP and Matlab.
 
 # Demo
-![Farmers Market Finder Demo](demo.gif)
+![Farmers Market Finder Demo](Demo.gif)
 
 # Environment used 
 V-rep & Matlab
 
 # Steps
 how to connect between v-rep (CoppeliaSim) and matlab : (verison 4)
+
     1. create a cuboid object inside CoppeliaSim
     2. create a script for the cuboid
     3. open the script and put "simRemoteApi.start(19999)" without quotes in the sysCall_init function
